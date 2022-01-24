@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&family=Poppins:wght@200;300;400;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+a {text-decoration: none;}
+h4 {
+    text-align: center;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: 'poppins', 'sans-serif';
+    font-size: 16px;
+}
+h4:after {
+    display: flex;
+    height: 1px;
+    background-color: #e2e0de;
+    content: " ";
+    width: 14rem;
+    margin: 1.125rem auto;
+}
+.wrapper {
+    max-width: 1400px;
+    width: 100%;
+    height: 40rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.tables {
+    padding: 0 1.25rem;
+    width: 25%;
+    background-color: rgb(255, 240, 25);
+    
+}
+
+.tables .ptable {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    padding: 1.6rem;
+    align-items: center;
+    height: 95%;
+    position: relative;
+}
+.ptable .category {
+    height: 5rem;
+}
+.price-section {
+    background-color: rgb(246, 254, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    font-weight: 600;
+    height: 7.5rem;
+}
+.price-section span:first-child {
+    font-size: 0.94rem;
+    font-weight: 700;
+
+}
+.price-area .inner-area {
+    position: relative;
+    padding-top: 0.3rem;
+    text-align: center;
+}
+.price-area .inner-area .text {
+    font-size: 1.6rem;
+    font-weight: 900;
+    position: relative;
+    top: -10px;
+}
+
+.price-area .inner-area .amount {
+    font-size: 2.2rem;
+    font-weight: 900;
+}
+.features {
+    height: 25rem;
+}
+.features-link {
+    font-weight: 400;
+    height: 2.5rem;
+    margin-bottom: 0.3rem;
+}
+.ribbon-wrapper-wrapper {
+    margin: 0 auto;
+    width: 280px;
+    position: relative;
+    z-index: 90;
+    top: -25px;
+    left: -45px;
+  }
+  .ribbon-wrapper {
+    width: 85px;
+    height: 88px;
+    overflow: hidden;
+    position: absolute;
+    top: -3px;
+    left: -3px;
+  }
+.ribbon {
+    font: bold 15px sans-serif;
+    color: #333;
+    text-align: center;
+    transform: rotate(-45deg);
+    position: relative;
+    padding: 7px 0;
+    top: 15px;
+    left: -30px;
+    width: 120px;
+    background-color: #fdf253;
+    color: #000;
+}
+  
+
+  
